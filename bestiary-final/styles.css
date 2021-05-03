@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*enterpage*/
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #D2D9E1;
+  color: white;
+  padding: 25px 35px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 150px;
+  border-radius: 10px;
+  font-family: 'Cinzel Decorative', cursive;
+  max-width: 600px;
+}
+
+/*aboutpage*/
+.abouttext{
+color: white;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+display: inline-block;
+padding: 10px 20px;
+border: .5px solid black;
+border-radius: 6px;
+margin-top: 18px;
+font-size: 12px;
+font-family: 'Raleway', sans-serif;
+}
+
+.headerspace{
+  width: 90px;
+  max-width: 90px;
+  height: 90px;
+  max-height: 90px;
+  display: inline-block;
+}
+
+.videocontent{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*dropdown*/
+#nav-toggle {
+  position: absolute;
+  top: -100px;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0 5%;
+  height: 100px;
+  width: 100%;
+  background-color: #D2D9E1;
+}
+
+nav .logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-size: 38px;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+nav .menu {
+  display: flex;
+  flex: 2;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+nav .menu li {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav .menu a {
+  padding: 1em;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .menu li:hover {
+  text-decoration: line-through;
+}
+
+.backgroundimage{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.backgroundtext {
+  padding: 3%;
+  line-height: 1.7em;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+}
+
+.titleheader{
+  padding: 3%;
+  line-height: 1.7em;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+/*creaturecontent*/
+.creaturecontent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  background: #000;
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.15em;
+  font-size: 14px;
+}
+
+.creatureimage{
+  flex: 2;
+}
+
+.creaturetext {
+  display: inline-block;
+  padding: 10px 20px;
+  border: .5px solid black;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #CDCDCD;
+  margin-top: 18px;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pronounce {
+    font-size: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2em;
+}
+
+.culturebackground {
+  font-size: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2em;
+}
+
+/*research*/
+.research {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #CDCDCD;
+}
+
+.about em {
+  font-style: italic;
+  color: #CDCDCD;
+}
+
+.about img {
+  width: 320px;
+}
+
+.aboutdiv {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 30px;
+  border: 1px solid #CDCDCD;
+  border-radius: 4px;
+}
+
+.aboutdivimage{
+  flex: 2;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: black;
+  color: #CDCDCD;
+}
+
+.footerlogo {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
+ font-family: 'Cinzel Decorative', cursive;
+}
+
+.logo{
+  color: white;
+}
+
+.logotext{
+  font-size: 14px;
+  align-self: flex-end;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: line-through;
+}
+
+.bigtextbackground {
+  background-color: #D2D9E1;
+  opacity: 1;
+  background-size: 12px 12px;
+}
+
+h1{
+ margin: 3rem;
+ font-size: 72px;
+ line-height: 1em;
+ font-family: 'Raleway', sans-serif;
+ color: white;
+}
+
+h2{
+  display: flex;
+  margin: 1rem;
+  font-size: 14px;
+  line-height: 1.7em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+hr{
+  margin: 3rem;
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+}
+
+/*mobile*/
+@media only screen and (max-width:760px) {
+
+  /*dropdown menu*/
+  nav .menu-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  nav .menu-burger .line {
+    width: 27px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 0px;
+    transition: all .3s ease-in-out;
+  }
+
+  nav .logo {
+    display: flex;
+    width: auto;
+    justify-content: center;
+  }
+
+  nav .menu {
+    display: flex;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, .8);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+  }
+
+  nav .menu a {
+    font-size: 20px;
+  }
+
+  nav :checked~.menu {
+    bottom: 0;
+  }
+
+  nav .menu-burger {
+    display: block;
+  }
+
+  nav :checked~.menu-burger .line:nth-child(1) {
+    transform: translateY(8px) rotate(225deg);
+  }
+
+  nav :checked~.menu-burger .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-225deg);
+  }
+
+  nav :checked~.menu-burger .line:nth-child(2) {
+    opacity: 0;
+  }
